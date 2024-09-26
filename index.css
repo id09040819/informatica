@@ -1,0 +1,56 @@
+font {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.t1 {
+    background-color: transparent;
+    background-color: #151522b2;
+    border-radius: 100px;
+}
+
+.t2 {
+    background-color: transparent;
+    background-color: #151522dc;
+    border-radius: 10px;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: #2e2e2e;
+    background-repeat: no-repeat;
+}
+  .floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #858585;
+    background: #151522;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .floating-button:hover {
+    background: #323250;
+    box-shadow: 0 15px 20px #2e2e4b;
+    color: white;
+    transform: translateY(-7px);
+  }
+  
+  @media (min-width: 1816px) {
+    .t1 {
+      width: 800;
+      height: 600;
+    }
+    body {
+      background-size: 23;
+    }
+  }
